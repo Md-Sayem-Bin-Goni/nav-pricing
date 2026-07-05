@@ -37,3 +37,136 @@
 .nav-links a:hover{
     background-color: rgb(136, 228, 245);
 }
+
+
+/* for pricing */
+
+-----------------------------------------
+-----------------------------------------
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.pricing {
+    width: 100%;
+    max-width: 1200px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.pricing h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    /* flex-wrap: wrap; */
+    
+
+    
+}
+
+.pricing-card {
+    background: #fff;
+    width: 300px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    
+}
+
+
+.pricing{
+    background: #fff;
+    width: 650px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    /* transition: 0.3s; */
+    
+}
+
+/* 
+.pricing:hover {
+    transform: translateY(-10px);
+} */
+
+
+
+.pricing h2 {
+    margin-bottom: 20px;
+}
+
+.pricing h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.pricing h3 span {
+    font-size: 1rem;
+}
+
+
+.pricing ul {
+    list-style: none;
+    margin-bottom: 30px;
+    
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background: #2563eb;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    /* opacity: 2.5; */
+    background-color: rgb(254, 115, 110);
+}
+
+.one{
+    border: 1px solid black ;
+    border-radius: 12px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+    padding: 20px;
+    
+}
+.one:hover {
+    transform: translateY(-10px);
+}
+
+
+.two{
+    border: 1px solid black ;
+    border-radius: 12px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+    padding: 20px;
+    background-color: #c7d7fb;
+    
+}
+.two:hover {
+    transform: translateY(-10px);
+}
+.three{
+    border: 1px solid black ;
+    border-radius: 12px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+    padding: 20px;
+    
+}
+.three:hover {
+    transform: translateY(-10px);
+}
