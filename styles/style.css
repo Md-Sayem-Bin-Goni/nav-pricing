@@ -170,3 +170,51 @@ button:hover {
 .three:hover {
     transform: translateY(-10px);
 }
+.badge {
+    position: absolute;
+    top: -16px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    background: crimson;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.content {
+    padding: 20px;
+    padding-bottom: 80px; /* Prevents content from being hidden */
+}
+
+.call-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+
+    padding: 15px 20px;
+    border-radius: 50px;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+
+    transition: 0.3s;
+}
+
+.call-btn:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
